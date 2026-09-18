@@ -88,4 +88,4 @@ Ori 並非專為兒童設計，也沒有由 Ori 發行者經營、用來蒐集�
 ## 聯絡方式與公開政策網址
 
 - 聯絡信箱：oribignose@gmail.com
-- 政策網址：https://ab091091.github.io/ori-privacy/
+- 政策網址：https://ab091091.github.io/Ori-privacy/
