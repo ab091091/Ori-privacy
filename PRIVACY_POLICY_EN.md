@@ -88,4 +88,4 @@ If Ori's features, permissions, third-party SDKs, or data-handling practices cha
 ## Contact and Public Policy URL
 
 - Contact email: oribignose@gmail.com
-- Privacy policy URL: https://ab091091.github.io/ori-privacy/
+- Privacy policy URL: https://ab091091.github.io/Ori-privacy/
