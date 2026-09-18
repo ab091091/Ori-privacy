@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Ori Privacy Policy">
+<title>Ori Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#f8f4ed;--card:#fffdf8;--text:#2d261f;--muted:#74685c;--line:#e7dccd;--accent:#9b6a3d}
+@media(prefers-color-scheme:dark){:root{--bg:#171411;--card:#201c18;--text:#f4ede4;--muted:#b9aa9a;--line:#3b322b;--accent:#d2a06f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.75}
+main{max-width:860px;margin:0 auto;padding:32px 18px 64px}.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,.04)}
+h1{font-size:2rem;margin:.1em 0 .25em}h2{font-size:1.25rem;margin:2em 0 .55em;padding-top:.3em;border-top:1px solid var(--line)}
+p,li{font-size:1rem}ul{padding-left:1.35em}.meta{color:var(--muted);margin-bottom:1.5em}.nav{display:flex;gap:10px;justify-content:flex-end;margin-bottom:14px}
+a{color:var(--accent);text-underline-offset:3px}.pill{display:inline-block;padding:7px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;background:var(--card)}
+footer{color:var(--muted);font-size:.9rem;margin-top:2em;padding-top:1em;border-top:1px solid var(--line)}
+</style>
+</head>
+<body><main><div class="nav"><a class="pill" href="../">繁體中文</a></div><article class="card">
+<h1>Ori Privacy Policy</h1><p class="meta">Effective date: September 17, 2026</p>
+<p>Ori is an offline-first app for pet care, pet health, training, and reminder tracking. It is designed so that data created by the user primarily stays on the user's own device, with the user deciding when to back up, export, or share it.</p>
+
+<h2>Data Covered by This Policy</h2>
+<p>Ori lets users enter or create:</p>
+<ul><li>Pet profile information.</li><li>Daily care records such as feeding, water, stool, walks, and weight.</li><li>Vaccines, deworming, medication, supplements, and dose history.</li><li>Veterinary visits, pet-health records, training sessions, reminders, and reminder completion history.</li><li>Photo attachments and notes that the user explicitly adds.</li><li>App settings and device-local states related to notifications or biometric protection.</li></ul>
+<p>This information is used for in-app record keeping, search/history, pet-health trends and data-based insights, local reminders, health reports, backup, restore, and export actions initiated by the user.</p>
+
+<h2>Whether the Publisher Collects or Shares Data</h2>
+<p>The current version of Ori:</p>
+<ul><li>Does not require an Ori account or sign-in.</li><li>Does not operate an Ori cloud-sync, analytics, advertising, care-data, or pet-health-data backend.</li><li>Does not proactively send pet, care, health, training, reminder, or photo-attachment data to the Ori publisher.</li><li>Does not use advertising or cross-app tracking.</li><li>Does not proactively sell or provide user data to third parties.</li></ul>
+<p>This means that although Ori processes user-created care data locally on the device, the current publisher does not collect that primary care data onto its own servers.</p>
+<p>If a future release adds accounts, cloud sync, analytics, crash reporting, advertising, or another feature that sends data to the publisher or a third party, this policy and the relevant store disclosures will be updated before that release is published.</p>
+
+<h2>Device Permissions and System Features</h2>
+<ul><li><strong>Notifications:</strong> If the user grants permission, Ori can schedule feeding, medication, and other care reminders. Declining notification permission does not affect normal record-keeping features.</li><li><strong>Boot completion events (Android):</strong> Used to restore or reschedule locally configured reminders after a device restart or app replacement/update.</li><li><strong>File selection and sharing:</strong> Used only when the user actively imports, exports, or shares backups, CSV files, PDF reports, or similar files through operating-system picker/share flows. The user chooses the destination or receiving app.</li><li><strong>Biometrics:</strong> Users may optionally protect access to the app with device biometric authentication. Authentication is handled by the operating system; Ori does not read or store fingerprints, face data, or other raw biometric information.</li></ul>
+
+<h2>Local Storage, Retention, and Deletion</h2>
+<p>The primary pet-care database, in-app automatic backups, and private photo attachments are stored inside the app sandbox. Data is generally retained until the user deletes it in the app, clears app data, or removes the app, subject to operating-system behavior.</p>
+<p>Users can delete individual records or pets in the app. Related data is handled according to the app's data relationships when a pet is deleted. Ori currently has no server-side account or server-side user dataset, so there is no separate remote account data that must be deleted by contacting Ori.</p>
+
+<h2>System Backup and Device Transfer</h2>
+<p>Ori does not operate its own cloud synchronization service. Where supported by the platform, Ori disables or excludes private app data from operating-system-managed backup:</p>
+<ul><li>Android disables system cloud backup and device transfer for Ori private app data.</li><li>iOS excludes the primary/recovery SQLite data, automatic backups under Application Support, and Ori's private attachment directory from device/iCloud backup.</li></ul>
+
+<h2>Export, Backup, and Restore</h2>
+<p>Data transfer occurs only when the user actively uses Ori's backup, restore, or export features.</p>
+<ul><li>Portable JSON backups may contain pet and care data and can optionally be protected with a password chosen by the user.</li><li>Full Backups can additionally include private photo attachments and can also be password-protected.</li><li>CSV and PDF exports may contain pet care or pet-health information.</li></ul>
+<p>Ori does not store user-chosen backup passwords and cannot recover them if they are lost. Once a file leaves the app sandbox, the selected storage location, cloud service, or sharing app is responsible for its subsequent storage and handling.</p>
+<p>Portable restore does not treat notification authorization, notification scheduling, or biometric-enabled state as trusted state that can simply be restored across devices. These device-local settings must be re-established according to the permissions and configuration of the destination device.</p>
+
+<h2>Data Security</h2>
+<p>Ori relies on the operating system's app sandbox to protect local private data and offers optional device-biometric locking. For cross-device storage, users can choose password-protected backups. If a user exports an unencrypted file, its security after leaving Ori depends on the destination selected by the user.</p>
+<p>No local software can guarantee absolute security. Users should protect their device unlock method, backup passwords, and exported files.</p>
+
+<h2>Pet Health Trends and Reports</h2>
+<p>Ori's health features concern <strong>pet/veterinary care records only</strong> and do not process human health or human medical data. Pet-health trends, data-based insights, and PDF reports summarize information entered by the user. They are not veterinary diagnoses, treatment recommendations, or emergency medical decisions. If there are concerns about a pet's health, users should consult a qualified veterinarian.</p>
+
+<h2>Third-Party Apps and Services</h2>
+<p>Ori does not proactively provide care data to third parties. When the user stores or shares an exported file through an operating-system file picker, share sheet, or another external app, the selected third-party app or service may process that file under its own privacy policy. Such transfers are initiated by the user, and the destination is chosen by the user.</p>
+
+<h2>Children's Privacy</h2>
+<p>Ori is not designed specifically for children and does not operate a publisher-controlled server account system for collecting children's personal information. The publisher must still complete Google Play's Target audience declaration according to the actual intended audience.</p>
+
+<h2>Policy Updates</h2>
+<p>If Ori's features, permissions, third-party SDKs, or data-handling practices change, this policy will be updated before the relevant release is published. The effective date at the top of this page identifies the current policy version.</p>
+
+<h2>Contact</h2>
+<p>Contact email: <a href="mailto:oribignose@gmail.com">oribignose@gmail.com</a></p>
+<p>Public policy URL: <a href="https://ab091091.github.io/ori-privacy/">https://ab091091.github.io/ori-privacy/</a></p>
+<footer>Ori · Privacy Policy</footer>
+</article></main></body></html>
